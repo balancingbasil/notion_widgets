@@ -12,6 +12,21 @@
             font-family: monospace;
             background-color: #000000;
         }
+        .widget {
+            padding: 5px 5px ;
+            color: #fafafa;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction: column;
+            max-width: 95%;
+            margin: auto;
+            border: 3px solid #6f9e7b;
+            border-radius: 5px;
+            box-shadow: 2px 2px 1px 0px #243829;
+
+        }
+        
         .box{
             display: inline-block;
             display: inline-block;
@@ -48,22 +63,24 @@
     </style>
 </head>
 <body>
-    
-    <div id="counter">
-   
-    <div>
-        <h2 class="box" id="days"></h2>
-        <h2 class="box" id="hours"></h2>
-        <h2 class="box" id="minutes"></h2>
-        <h2 class="box" id="seconds"></h2>
-
-        <h3>
-            Left in <br>This Week
-        </h3>
+    <div class="container>">
+    <div class="widget">
+            <div id="counter">
+           
+            <div>
+                <h2 class="box" id="days"></h2>
+                <h2 class="box" id="hours"></h2>
+                <h2 class="box" id="minutes"></h2>
+                <h2 class="box" id="seconds"></h2>
+        
+                <h3>
+                    Left in <br>This Week
+                </h3>
+            </div>
+               
+            </div>
     </div>
-       
     </div>
-
 
 
 <script>
